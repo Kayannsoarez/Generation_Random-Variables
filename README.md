@@ -1,1 +1,1 @@
-# Generation-of-random-variables-
+# Generation and observation of random variables 

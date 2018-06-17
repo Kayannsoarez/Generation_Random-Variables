@@ -7,4 +7,9 @@ Geração e observação de variáveis aleatórias.
 
 ----------------------------------------------------------------------------------------------------------------------
 
-Generation and observation of random variables 
+Generation and observation of random variables.
+
+1. Generate a random sequence of variables (10,000 samples) with uniform distribution in the interval [3, 7].
+2. Generate a random variable sequence with exponential distribution (10000 samples) with parameter λ = 4.
+3. Generate a random sequence of variables with Cauchy distribution (10000 samples), considering α = 3.
+4. Generate a random variable sequence with Gaussian distribution (10000 samples) with mean μ = 2 and variance σ = 3.

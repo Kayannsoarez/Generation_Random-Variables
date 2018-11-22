@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 valor = []
 num = []
 
-a=3
-b=7
+a = 3
+b = 7
 h = 4
 seed = 10
 m = 2**32

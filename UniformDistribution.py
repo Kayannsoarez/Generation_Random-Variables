@@ -11,7 +11,7 @@ seed = 10
 for i in range(10000):
     seed = (a*seed+b)%m
     r = seed/m
-    X= a+(b-a)*r
+    X = a+(b-a)*r
 
     valor.append(X)
     num.append(r)

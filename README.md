@@ -1,3 +1,5 @@
+# Generation Random Variables
+
 Geração e observação de variáveis aleatórias.
 
 1. Gerar uma sequência de variáveis aleatória (10000 amostras) com distribuição uniforme no intervalo [3, 7].

@@ -1,6 +1,6 @@
 # Generation Random Variables
 
-Geração e observação de variáveis aleatórias.
+### Geração e observação de variáveis aleatórias.
 
 1. Gerar uma sequência de variáveis aleatória (10000 amostras) com distribuição uniforme no intervalo [3, 7].
 2. Gerar uma sequência de variáveis aleatória com distribuição exponencial (10000 amostras) com parâmetro λ = 4.
@@ -9,7 +9,7 @@ Geração e observação de variáveis aleatórias.
 
 ----------------------------------------------------------------------------------------------------------------------
 
-Generation and observation of random variables.
+### Generation and observation of random variables.
 
 1. Generate a random sequence of variables (10,000 samples) with uniform distribution in the interval [3, 7].
 2. Generate a random variable sequence with exponential distribution (10000 samples) with parameter λ = 4.

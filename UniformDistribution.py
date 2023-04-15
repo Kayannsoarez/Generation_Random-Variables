@@ -17,6 +17,8 @@ for i in range(10000):
     # gerando um novo número aleatório utilizando a fórmula do congruente linear
     seed = (a*seed+b)%m
     r = seed/m
+    
+    # cálculo do valor da amostra com distribuição uniforme
     X = a+(b-a)*r
 
     # adicionando o valor da variável aleatória na lista "valor"

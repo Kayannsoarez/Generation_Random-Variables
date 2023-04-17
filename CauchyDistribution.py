@@ -2,26 +2,36 @@ import random
 import math
 import matplotlib.pyplot as plt
 
+# inicialização das listas de valores e números aleatórios
 valor = []
 num = []
-a = 3
+
+# parâmetros da distribuição uniforme
+alpha = 3
 pi = math.pi
 
+# laço para gerar 10000 variáveis aleatórias
 for i in range(10000):
-    x = random.uniform(0, 1)
-    w = 3*math.tan(x*pi - pi/2)
+    # gerando um número aleatório uniforme no intervalo (0,1)
+    u = random.uniform(0, 1)
 
-    valor.append(w)
-    valor.sort(reverse=False)
-    num.append(x)
-    num.sort(reverse=False)
+    # aplicando a transformação inversa para obter uma amostra da distribuição de Cauchy
+    x = alpha * math.tan(pi * (u - 0.5))
 
-    print(x)
+    # adição da amostra e número aleatório às listas
+    valor.append(x)
+    num.append(u)
 
-plt.hist(valor)
+    # ordenação das listas para plotagem da CDF
+    valor.sort()
+    num.sort()
+
+# plotando o histograma das variáveis aleatórias geradas
+plt.hist(valor, bins=50)
 plt.title("Histograma")
 plt.show()
 
+# plotando a função de distribuição acumulada (CDF)
 plt.plot(valor, num)
 plt.title("CDF")
 plt.xlim(-50, 50)
